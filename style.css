@@ -1,1 +1,121 @@
+img {
+    border-radius: 50%;
+}
 
+div.navigation {
+    margin: 5px;
+    padding: 12px;
+    border-style: solid;
+    border-color: purple white grey white;
+    color: black;
+    text-align: center;
+    word-spacing: 50px;
+    font-size: 18px;
+}
+
+a:link, a:visited {
+    text-decoration : none;
+    color: black;
+}
+
+a:hover, a:active {
+    color: purple;
+}
+
+div.pages-container {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+div.about{
+    padding: 20px;
+    height: 460px;
+    width: 300px;
+  }
+
+div.page-content{
+    border-style: solid;
+    border-color: white white white grey;
+    padding: 30px;
+    height: 460px;
+    width: 625px;
+}
+
+div.centering-text{
+    text-align: center;
+    line-height: 0.2;
+}
+
+p.email{
+    color: purple;
+    font-size: 12px;
+}
+
+p.person-name{
+    font-size: 22px;
+}
+
+p.page-title{
+    font-size: 36px;
+    line-height: 0;
+}
+
+a.current-page{
+    color: purple;
+}
+
+.footer{
+    text-align: center;
+    border-style: solid;
+    border-color: grey white white white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    width: 99%;
+    bottom: 0;
+    background-image: linear-gradient(white, grey);
+    font-size: 12px;
+}
+
+progress.skills-bars{
+    width: 75%;
+}
+
+p.paragraph-spacing{
+    line-height: 0.0;
+    font-size: 20px;
+}
+
+div.text-right-align{
+    text-align: right;
+}
+
+div.text-box{
+    display: flex;
+    width: 500px;
+}
+
+div.text-item{
+    width: 300px;
+}
+
+div.headline, p.headline{
+    font-size: 20px;
+}
+
+a.resume-text {
+    color: purple;
+}
+
+@media only screen and (max-width: 1095px) {
+      div.page-content{
+        border-color: grey white white white;
+      }
+      p.page-title{
+        text-align: center;
+      }
+  }
